@@ -38,6 +38,7 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"] {
   top: 50px; }
 
 .view-work {
+  display: block;
   background: black;
   color: white;
   width: 140px;
@@ -45,3 +46,11 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"] {
   text-align: center;
   position: relative;
   top: 35%; }
+
+.view-work > p {
+  font-size: 21px;
+  display: inline-block;
+  vertical-align: middle; }
+
+.wana-background {
+  background-color: #E9F7D5; }
