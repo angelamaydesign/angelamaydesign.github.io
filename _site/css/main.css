@@ -1,0 +1,47 @@
+html, button, input, select, textarea, .pure-g [class*="pure-u"] {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300; }
+
+.pure-g {
+  height: 100vh; }
+
+.left-col {
+  border-right: 1px solid black;
+  height: 100%; }
+
+.left-col > p.rotated {
+  transform: rotate(-90deg);
+  color: grey;
+  position: relative;
+  top: 40%;
+  font-size: 25px; }
+
+.right-col > .main-content {
+  font-size: 30px;
+  position: relative;
+  top: 10%;
+  left: 10%; }
+
+.right-col > .main-content.title {
+  top: 40%; }
+
+.main-content > p.subtext {
+  position: relative;
+  left: 10%;
+  color: grey;
+  font-size: 16px; }
+
+.right-col > h1.big-number {
+  font-size: 70px;
+  position: relative;
+  left: -21px;
+  top: 50px; }
+
+.view-work {
+  background: black;
+  color: white;
+  width: 140px;
+  height: 70px;
+  text-align: center;
+  position: relative;
+  top: 35%; }
