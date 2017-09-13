@@ -34,6 +34,10 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"] {
   color: grey;
   font-size: 16px; }
 
+img.project-image {
+  width: 800px;
+  margin-left: 30%; }
+
 .right-col > h1.big-number {
   font-size: 70px;
   position: relative;
@@ -58,11 +62,15 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"] {
 .wana-background {
   background-color: #E9F7D5; }
 
+.caroline-background {
+  background-color: #EED9BB; }
+
 .project-section > h1.section-title {
   position: relative;
   left: -21px;
   font-size: 60px; }
 
 .project-section > p.section-description {
-  font-size: 28px;
-  margin-left: 40px; }
+  font-size: 22px;
+  margin-left: 40px;
+  max-width: 1000px; }
