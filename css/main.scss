@@ -22,6 +22,10 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
   font-size: 20px;
 }
 
+.left-col > p.rotated-fixed {
+  position: fixed;
+}
+
 .side-link {
   color: grey;
   padding: 5px;
