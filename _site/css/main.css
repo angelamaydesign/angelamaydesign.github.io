@@ -2,12 +2,11 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"] {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300; }
 
-.pure-g {
+.pure-g.section {
   height: 100vh; }
 
 .left-col {
-  border-right: 1px solid black;
-  height: 100%; }
+  border-right: 1px solid black; }
 
 .left-col > p.rotated {
   transform: rotate(-90deg);
@@ -18,12 +17,16 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"] {
 
 .right-col > .main-content {
   font-size: 30px;
-  position: relative;
-  top: 10%;
-  left: 10%; }
+  margin-top: 100px;
+  margin-left: 10%; }
 
 .right-col > .main-content.title {
-  top: 40%; }
+  position: relative;
+  top: 40%;
+  left: 10%; }
+
+.main-content > h1 {
+  margin-bottom: 10px; }
 
 .main-content > p.subtext {
   position: relative;
@@ -54,3 +57,12 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"] {
 
 .wana-background {
   background-color: #E9F7D5; }
+
+.project-section > h1.section-title {
+  position: relative;
+  left: -21px;
+  font-size: 60px; }
+
+.project-section > p.section-description {
+  font-size: 28px;
+  margin-left: 40px; }
