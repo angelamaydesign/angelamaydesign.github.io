@@ -15,6 +15,10 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"] {
   top: 40%;
   font-size: 20px; }
 
+.side-link {
+  color: grey;
+  padding: 5px; }
+
 .right-col > .main-content {
   font-size: 30px;
   margin-top: 100px;
