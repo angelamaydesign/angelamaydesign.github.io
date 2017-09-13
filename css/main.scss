@@ -47,9 +47,13 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
 }
 
 img.project-image {
-  max-width: 800px;
-  max-height: 800px;
+  height: 100%;
+  width: auto;
   margin-left: 30%;
+}
+
+.img-container {
+  max-height: 40%;
 }
 
 .right-col > h1.big-number {
