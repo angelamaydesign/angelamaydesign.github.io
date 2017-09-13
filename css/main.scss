@@ -19,7 +19,7 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
   color: grey;
   position: relative;
   top: 40%;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .right-col > .main-content {
@@ -46,14 +46,20 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
   max-width: 400px;
 }
 
-img.project-image {
+img.index-image {
   height: 100%;
   width: auto;
   margin-left: 30%;
 }
 
-.img-container {
+.image-container {
   max-height: 40%;
+}
+
+img.project-image {
+  margin-left: 100px;
+  height: 100%;
+  width: auto;
 }
 
 .right-col > h1.big-number {
@@ -98,6 +104,10 @@ img.project-image {
 
 .extra-background {
   background-color: #DDDDDD;
+}
+
+.last {
+  margin-bottom: 100px;
 }
 
 
