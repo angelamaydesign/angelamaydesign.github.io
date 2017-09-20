@@ -41,9 +41,8 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
 
 .right-col > .main-content {
   font-size: 30px;
-  position: relative;
-  top: 5%;
-  left: 10%
+  margin-top: 5%;
+  margin-left: 10%
 }
 
 .right-col > .main-content#hello {
@@ -78,9 +77,11 @@ img.index-image {
 }
 
 img.project-image {
-  margin-left: 100px;
-  height: 100%;
   width: auto;
+  max-width: 50vw;
+  height: auto;
+  max-height: 30vh;
+  margin-left: 100px;
 }
 
 .right-col > h1.big-number {
@@ -137,6 +138,7 @@ img.project-image {
   position: relative;
   left: -21px;
   font-size: 60px;
+  margin-bottom: 0px;
 }
 
 .project-section > p.section-description {
@@ -151,6 +153,10 @@ img.project-image {
   }
 
   .main-content > p.subtext {
+    font-size: 3vw;
+  }
+
+  .project-section > p.section-description {
     font-size: 3vw;
   }
 
