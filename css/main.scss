@@ -57,9 +57,14 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
 }
 
 img.index-image {
-  height: 100%;
-  width: auto;
+  width: 50vw;
+  height: auto;
   margin-left: 30%;
+}
+
+img#index-bnbc {
+  width: 30vw;
+  max-width: 500px;
 }
 
 .image-container {
