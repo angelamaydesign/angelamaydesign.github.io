@@ -53,8 +53,13 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
   position: relative;
   left: 10%;
   color: grey;
-  font-size: 16px;
+  font-size: 22px;
   max-width: 80%;
+}
+
+.image-container {
+  position: relative;
+  top: 5%;
 }
 
 img.index-image {
@@ -63,9 +68,6 @@ img.index-image {
   height: auto;
   max-height: 30vh;
   margin-left: 30%;
-}
-
-img#index-bnbc {
 }
 
 img.project-image {
@@ -90,7 +92,7 @@ img.project-image {
   height: 70px;
   text-align: center;
   position: relative;
-  top: 35%;
+  top: 10%;
 }
 
 .view-work > p {
@@ -137,12 +139,12 @@ img.project-image {
 }
 
 @media only screen and (max-width: 700px) {
-  .right-col > .main-content#hello {
+  .right-col > .main-content {
     font-size: 4vw;
   }
 
   .main-content > p.subtext {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
 }
