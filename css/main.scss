@@ -12,6 +12,9 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
 
 .left-col {
   border-right: 1px solid black;
+}
+
+.pure-g.section > .left-col {
   height: 100vh;
 }
 
@@ -26,8 +29,9 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
   line-height: 0;
 }
 
-.left-col > p.rotated-fixed {
+.left-col > .rotated-fixed {
   position: fixed;
+  left: 5vw;
 }
 
 .side-link {
