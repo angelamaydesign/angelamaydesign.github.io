@@ -8,13 +8,15 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"] {
 .left-col {
   border-right: 1px solid black; }
 
-.left-col > p.rotated {
+.left-col > .rotated {
   position: relative;
-  top: 50%;
   left: 50%;
-  transform: translateX(-50%) rotate(-90deg);
-  width: 600px;
-  font-size: 24px; }
+  transform: translateY(100vh) rotate(-90deg);
+  text-align: center;
+  transform-origin: top left 0;
+  width: 100vh;
+  font-size: 24px;
+  line-height: 0; }
 
 .left-col > p.rotated-fixed {
   position: fixed; }
