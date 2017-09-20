@@ -6,7 +6,7 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
   font-weight: 300;
 }
 
-.pure-g.section {
+.section {
   height: 100vh;
 }
 
@@ -15,11 +15,12 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
 }
 
 .left-col > p.rotated {
-  transform: rotate(-90deg);
-  color: grey;
   position: relative;
-  top: 40%;
-  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) rotate(-90deg);
+  width: 600px;
+  font-size: 24px;
 }
 
 .left-col > p.rotated-fixed {
@@ -41,12 +42,6 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
   position: relative;
   top: 40%;
   left: 10%;
-}
-
-@media only screen and (max-width: 700px) {
-  .right-col > .main-content.title {
-    font-size: 4vw;
-  }
 }
 
 .main-content > h1 {
@@ -136,4 +131,14 @@ img.project-image {
   font-size: 22px;
   margin-left: 40px;
   max-width: 1000px;
+}
+
+@media only screen and (max-width: 700px) {
+  .right-col > .main-content.title {
+    font-size: 4vw;
+  }
+
+  .main-content > p.subtext {
+    font-size: 2vw;
+  }
 }
