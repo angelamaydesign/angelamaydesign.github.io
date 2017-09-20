@@ -32,6 +32,9 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"] {
   top: 40%;
   left: 10%; }
 
+@media only screen and (max-width: 700px) {
+  .right-col > .main-content.title {
+    font-size: 4vw; } }
 .main-content > h1 {
   margin-bottom: 10px; }
 
@@ -40,7 +43,7 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"] {
   left: 10%;
   color: grey;
   font-size: 16px;
-  max-width: 400px; }
+  max-width: 80%; }
 
 img.index-image {
   height: 100%;
