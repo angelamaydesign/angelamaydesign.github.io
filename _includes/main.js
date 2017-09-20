@@ -7,5 +7,5 @@ function setHeight() {
 }
 
 $(document).ready(function() {
-  $(window).bind('resize', setHeight);
+  // $(window).bind('resize', setHeight);
 });
